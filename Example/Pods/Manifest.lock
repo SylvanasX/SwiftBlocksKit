@@ -1,5 +1,5 @@
 PODS:
-  - SwiftBlocksKit (0.1.0)
+  - SwiftBlocksKit (0.0.1)
 
 DEPENDENCIES:
   - SwiftBlocksKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SwiftBlocksKit: 157d7839a341764c68da397214694a51a26beaab
+  SwiftBlocksKit: 0860781f9a5510f971cb141d5c4c798b53f8452d
 
 PODFILE CHECKSUM: fa6135630015c922a50133703b56802272793bac
 

@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		02909993335C81CA359101B511405F87 /* Pods-SwiftBlocksKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88E5248DCAEB7ECE6EC84D730389280 /* Pods-SwiftBlocksKit_Example-dummy.m */; };
-		1213A7770546AF8F17A30B0B70EEFE98 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81ED7A2F78E649C3099CC910487F69 /* ReplaceMe.swift */; };
+		4CB0AE98FC266AEE632DB4EE1B1D943A /* SwiftBlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8096F2F9B52F111A19B8CB3FF6578 /* SwiftBlocksKit-dummy.m */; };
 		4D515503E767E2F399A57004FE7CB088 /* Pods-SwiftBlocksKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D99590CFAA96A167B6A02138593B87DD /* Pods-SwiftBlocksKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		612F531ED5994CD33E4F36340C732433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		96174ED7528395C0ACC441FFB5E6F528 /* SwiftBlocksKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FECA988D1702A6A80208ADB2545980CB /* SwiftBlocksKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6AD73EE907D5E0786357F8B184C05F /* SwiftBlocksKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D0F5F052C4379526D4338A42F15BB /* SwiftBlocksKit.swift */; };
+		96174ED7528395C0ACC441FFB5E6F528 /* SwiftBlocksKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDBDF5FDBAD7F54CABC99ADE7DF0765 /* SwiftBlocksKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA2692FA8F20650AB0EA60C3F87B6AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B47BF52A2A5365AA19300631CA6636FE /* Pods-SwiftBlocksKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A78BDF834F6821F4031189387FEFB0 /* Pods-SwiftBlocksKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF1721039C1B7A661E957454658D20CD /* SwiftBlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC1E81FA334F593D8FAF99AA8936B2 /* SwiftBlocksKit-dummy.m */; };
+		B88ED1EB45A79C1D4871559AD873F1E7 /* Timer+SwiftBlocksKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED96C57124CEF1C54FA4F0A91C51E108 /* Timer+SwiftBlocksKit.swift */; };
+		DBE60256F63916E4FB6B1DE133C41D94 /* UIControl+SwiftBlocksKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF799979BE7129B754B6C452BD8D2 /* UIControl+SwiftBlocksKit.swift */; };
 		EBCB9AAA61DA1F25F1FB4A56B68CBE2F /* Pods-SwiftBlocksKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE37489F9617BBF7F13A8A242D36518 /* Pods-SwiftBlocksKit_Tests-dummy.m */; };
 		EF484F1DBF872AA20984388660985244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -31,15 +33,16 @@
 
 /* Begin PBXFileReference section */
 		02CEBBDBEAA53EB57CFF64536CA46930 /* Pods-SwiftBlocksKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBlocksKit_Example-resources.sh"; sourceTree = "<group>"; };
+		092D0F5F052C4379526D4338A42F15BB /* SwiftBlocksKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftBlocksKit.swift; path = SwiftBlocksKit/Classes/SwiftBlocksKit.swift; sourceTree = "<group>"; };
+		0BDBDF5FDBAD7F54CABC99ADE7DF0765 /* SwiftBlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftBlocksKit-umbrella.h"; sourceTree = "<group>"; };
 		0D9A89C6610442AA7A53C1D1A17B5B20 /* Pods-SwiftBlocksKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBlocksKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		11E61004E09D5CC17A1510AA7102E82F /* Pods-SwiftBlocksKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBlocksKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16E90ED2B1BD32143765C9B8388F596D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C94C586FD3D17BBE02DCCCF6993C591 /* SwiftBlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftBlocksKit.xcconfig; sourceTree = "<group>"; };
 		291E85218EAE0FCF32B8765BFBDB9B5F /* Pods-SwiftBlocksKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBlocksKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		306F48C4B6FBCFDF9B33996B0E7285F0 /* SwiftBlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftBlocksKit.modulemap; sourceTree = "<group>"; };
+		30F5F0EE8B84AAC436821B4CA8AB8B5B /* SwiftBlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftBlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		3BF8096F2F9B52F111A19B8CB3FF6578 /* SwiftBlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftBlocksKit-dummy.m"; sourceTree = "<group>"; };
 		3D33F608D31E0EDB220DED54D1124AD2 /* Pods-SwiftBlocksKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBlocksKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3F81ED7A2F78E649C3099CC910487F69 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftBlocksKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4AFAD7380D9B4CE24443E889957DCBAF /* SwiftBlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftBlocksKit-prefix.pch"; sourceTree = "<group>"; };
-		4FFC1E81FA334F593D8FAF99AA8936B2 /* SwiftBlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftBlocksKit-dummy.m"; sourceTree = "<group>"; };
 		64294931BCFDA26C615633C851D58DED /* Pods-SwiftBlocksKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBlocksKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BE37489F9617BBF7F13A8A242D36518 /* Pods-SwiftBlocksKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBlocksKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -52,7 +55,7 @@
 		B0A78BDF834F6821F4031189387FEFB0 /* Pods-SwiftBlocksKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBlocksKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C48F4158E46ED3D08D35356D4CEEF029 /* SwiftBlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftBlocksKit.framework; path = SwiftBlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA605F3DE7EACE3A5A8BCCD27F295A60 /* Pods-SwiftBlocksKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBlocksKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCE2E5DF6F9DF9D0139290D7100901FA /* SwiftBlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftBlocksKit.xcconfig; sourceTree = "<group>"; };
+		CCE78985DD06975FC2E58E763BA57FEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B2EE333260A6978D6CF3BC8171CD38 /* Pods-SwiftBlocksKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBlocksKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D88E5248DCAEB7ECE6EC84D730389280 /* Pods-SwiftBlocksKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBlocksKit_Example-dummy.m"; sourceTree = "<group>"; };
 		D99590CFAA96A167B6A02138593B87DD /* Pods-SwiftBlocksKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBlocksKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -60,8 +63,9 @@
 		DCCDAD5CCD33AA15FA8205923968369B /* Pods-SwiftBlocksKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBlocksKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5AC1288167BE412651D240D3873CBC3 /* Pods-SwiftBlocksKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBlocksKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E60A73366AEA76573E4B8BD9D29D6378 /* Pods-SwiftBlocksKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBlocksKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E849F44ED760F337016AD558A6A278E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FECA988D1702A6A80208ADB2545980CB /* SwiftBlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftBlocksKit-umbrella.h"; sourceTree = "<group>"; };
+		ED96C57124CEF1C54FA4F0A91C51E108 /* Timer+SwiftBlocksKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+SwiftBlocksKit.swift"; path = "SwiftBlocksKit/Classes/Timer+SwiftBlocksKit.swift"; sourceTree = "<group>"; };
+		F450780B675287623F0298FB3F4C90A1 /* SwiftBlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftBlocksKit.modulemap; sourceTree = "<group>"; };
+		FA4FF799979BE7129B754B6C452BD8D2 /* UIControl+SwiftBlocksKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+SwiftBlocksKit.swift"; path = "SwiftBlocksKit/Classes/UIControl+SwiftBlocksKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,14 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CB157DF4FD4A91BE5C0CB4AC42FDE80 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E468ED4DE144349C51F96982E6114259 /* SwiftBlocksKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1ECCB0E0107D80C4500F5B4293C0B44D /* Pods-SwiftBlocksKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +124,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		40C40618815C956B622A947272BB4B7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD98A8796D66EB87DAC71E457A8EE961 /* SwiftBlocksKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		792C33C71CF7EF97B5CF951872862940 /* Pods-SwiftBlocksKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,29 +150,29 @@
 			path = "Target Support Files/Pods-SwiftBlocksKit_Example";
 			sourceTree = "<group>";
 		};
+		7A4924BF322CFDD735428F5D241126D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE78985DD06975FC2E58E763BA57FEF /* Info.plist */,
+				F450780B675287623F0298FB3F4C90A1 /* SwiftBlocksKit.modulemap */,
+				1C94C586FD3D17BBE02DCCCF6993C591 /* SwiftBlocksKit.xcconfig */,
+				3BF8096F2F9B52F111A19B8CB3FF6578 /* SwiftBlocksKit-dummy.m */,
+				30F5F0EE8B84AAC436821B4CA8AB8B5B /* SwiftBlocksKit-prefix.pch */,
+				0BDBDF5FDBAD7F54CABC99ADE7DF0765 /* SwiftBlocksKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftBlocksKit";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0CB157DF4FD4A91BE5C0CB4AC42FDE80 /* Development Pods */,
+				40C40618815C956B622A947272BB4B7C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3A2A39D132A8E45499F9351DEF69AC23 /* Products */,
 				CFB47CF8194A560C8E810BB13270F356 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B2F49571040B1854F57E16CDF464CBBA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E849F44ED760F337016AD558A6A278E1 /* Info.plist */,
-				306F48C4B6FBCFDF9B33996B0E7285F0 /* SwiftBlocksKit.modulemap */,
-				CCE2E5DF6F9DF9D0139290D7100901FA /* SwiftBlocksKit.xcconfig */,
-				4FFC1E81FA334F593D8FAF99AA8936B2 /* SwiftBlocksKit-dummy.m */,
-				4AFAD7380D9B4CE24443E889957DCBAF /* SwiftBlocksKit-prefix.pch */,
-				FECA988D1702A6A80208ADB2545980CB /* SwiftBlocksKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftBlocksKit";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -196,11 +200,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E468ED4DE144349C51F96982E6114259 /* SwiftBlocksKit */ = {
+		DD98A8796D66EB87DAC71E457A8EE961 /* SwiftBlocksKit */ = {
 			isa = PBXGroup;
 			children = (
-				3F81ED7A2F78E649C3099CC910487F69 /* ReplaceMe.swift */,
-				B2F49571040B1854F57E16CDF464CBBA /* Support Files */,
+				092D0F5F052C4379526D4338A42F15BB /* SwiftBlocksKit.swift */,
+				ED96C57124CEF1C54FA4F0A91C51E108 /* Timer+SwiftBlocksKit.swift */,
+				FA4FF799979BE7129B754B6C452BD8D2 /* UIControl+SwiftBlocksKit.swift */,
+				7A4924BF322CFDD735428F5D241126D1 /* Support Files */,
 			);
 			name = SwiftBlocksKit;
 			path = ../..;
@@ -275,7 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7784951BDFDAFAF86627687A0B353321 /* Build configuration list for PBXNativeTarget "SwiftBlocksKit" */;
 			buildPhases = (
-				BBB7726DE2CA600B1D8DDC03FA3F370C /* Sources */,
+				E4EE5F5A2B9F74B2E4129E7FB0E75D5A /* Sources */,
 				B17AACD6754A6FB1C74B329EA98D86DB /* Frameworks */,
 				F502257EE929BDF3371133915567D636 /* Headers */,
 			);
@@ -333,12 +339,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBB7726DE2CA600B1D8DDC03FA3F370C /* Sources */ = {
+		E4EE5F5A2B9F74B2E4129E7FB0E75D5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1213A7770546AF8F17A30B0B70EEFE98 /* ReplaceMe.swift in Sources */,
-				DF1721039C1B7A661E957454658D20CD /* SwiftBlocksKit-dummy.m in Sources */,
+				4CB0AE98FC266AEE632DB4EE1B1D943A /* SwiftBlocksKit-dummy.m in Sources */,
+				6E6AD73EE907D5E0786357F8B184C05F /* SwiftBlocksKit.swift in Sources */,
+				B88ED1EB45A79C1D4871559AD873F1E7 /* Timer+SwiftBlocksKit.swift in Sources */,
+				DBE60256F63916E4FB6B1DE133C41D94 /* UIControl+SwiftBlocksKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +444,7 @@
 		};
 		86BECDDB8D8424C0C6EC2CA3B354AAE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCE2E5DF6F9DF9D0139290D7100901FA /* SwiftBlocksKit.xcconfig */;
+			baseConfigurationReference = 1C94C586FD3D17BBE02DCCCF6993C591 /* SwiftBlocksKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -597,7 +605,7 @@
 		};
 		B4F21D918A1EEA60D64973A92E182476 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCE2E5DF6F9DF9D0139290D7100901FA /* SwiftBlocksKit.xcconfig */;
+			baseConfigurationReference = 1C94C586FD3D17BBE02DCCCF6993C591 /* SwiftBlocksKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

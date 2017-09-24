@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftBlocksKit_Example' do
+  pod 'SwiftBlocksKit', :path => '../'
+
+  target 'SwiftBlocksKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

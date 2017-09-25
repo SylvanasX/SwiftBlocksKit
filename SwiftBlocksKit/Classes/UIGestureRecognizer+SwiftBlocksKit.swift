@@ -34,10 +34,10 @@ fileprivate class SwiftBlocksKitGestureRecognizerWrapper: NSObject {
     
     @objc func handleAction(recognizer: UIGestureRecognizer) {
         guard let block = block else { return }
-        
         let location = recognizer.location(in: recognizer.view);
+        let state = recognizer.state
         DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
-            block(recognizer, recognizer.state, location)
+            block(recognizer, state, location)
         }
     }
 }

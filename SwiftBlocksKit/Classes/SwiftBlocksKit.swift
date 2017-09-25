@@ -31,6 +31,7 @@ public extension SwiftBlocksKitCompatible {
     }
 }
 
-extension Timer: SwiftBlocksKitCompatible {}
-extension UIGestureRecognizer: SwiftBlocksKitCompatible {}
-extension UIView: SwiftBlocksKitCompatible {}
+//extension Timer: SwiftBlocksKitCompatible {}
+//extension UIGestureRecognizer: SwiftBlocksKitCompatible {}
+//extension UIView: SwiftBlocksKitCompatible {}
+extension NSObject: SwiftBlocksKitCompatible {}

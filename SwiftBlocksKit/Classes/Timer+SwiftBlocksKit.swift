@@ -38,13 +38,3 @@ extension SwiftBlocksKit where Base: Timer {
     }
 }
 
-
-
-
-//@available(iOS 10.0, *)
-//public /*not inherited*/ init(timeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void)
-//
-//
-//@available(iOS 10.0, *)
-//open class func scheduledTimer(withTimeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void) -> Timer
-

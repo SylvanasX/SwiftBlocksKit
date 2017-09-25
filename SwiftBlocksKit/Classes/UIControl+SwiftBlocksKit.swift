@@ -63,8 +63,8 @@ extension SwiftBlocksKit where Base: UIControl {
     // SwiftBlocksKitContrilWrapper
     fileprivate class SwiftBlocksKitControlWrapper: NSObject, NSCopying {
         let controlEvents: UIControlEvents
-        let block: (Base)-> Void
-        init(controlEvents: UIControlEvents, block: @escaping (Base)-> Void) {
+        let block: (Base) -> Void
+        init(controlEvents: UIControlEvents, block: @escaping (Base) -> Void) {
             self.controlEvents = controlEvents
             self.block = block
         }

@@ -11,7 +11,7 @@ import UIKit
 private var conrtolHandlerKey: Void?
 
 extension SwiftBlocksKit where Base: UIControl {
-    public func addEventHandlerForControlEvents(_ controlEvents: UIControlEvents, block: @escaping ((Base) -> Void)) {
+    public func addEventHandlerForControlEvents(_ controlEvents: UIControl.Event, block: @escaping ((Base) -> Void)) {
         let key = NSNumber(value: controlEvents.rawValue)
         var handlers = events[key] as? NSMutableSet
         if nil == handlers {
@@ -24,7 +24,7 @@ extension SwiftBlocksKit where Base: UIControl {
         base.addTarget(target, action: selector, for: controlEvents)
     }
     
-    public func removeEventHandlersForControlEvents(_ controlEvents: UIControlEvents) {
+    public func removeEventHandlersForControlEvents(_ controlEvents: UIControl.Event) {
         let key = NSNumber(value: controlEvents.rawValue)
         
         guard let handlers = events[key] as? NSMutableSet else {
@@ -38,7 +38,7 @@ extension SwiftBlocksKit where Base: UIControl {
         events.removeObject(forKey: key)
     }
     
-    public func hasEventHandlersForControlEvents(_ controlEvents: UIControlEvents) -> Bool {
+    public func hasEventHandlersForControlEvents(_ controlEvents: UIControl.Event) -> Bool {
         let key = NSNumber(value: controlEvents.rawValue)
         guard let handlers = events[key] as? NSMutableSet else {
             return false
@@ -62,9 +62,9 @@ extension SwiftBlocksKit where Base: UIControl {
     
     // SwiftBlocksKitContrilWrapper
     fileprivate class SwiftBlocksKitControlWrapper: NSObject, NSCopying {
-        let controlEvents: UIControlEvents
+        let controlEvents: UIControl.Event
         let block: (Base) -> Void
-        init(controlEvents: UIControlEvents, block: @escaping (Base) -> Void) {
+        init(controlEvents: UIControl.Event, block: @escaping (Base) -> Void) {
             self.controlEvents = controlEvents
             self.block = block
         }

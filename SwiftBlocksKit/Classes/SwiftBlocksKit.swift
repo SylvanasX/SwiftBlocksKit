@@ -22,11 +22,11 @@ public protocol SwiftBlocksKitCompatible {
 }
 
 public extension SwiftBlocksKitCompatible {
-    public static var sb: SwiftBlocksKit<Self>.Type {
+    static var sb: SwiftBlocksKit<Self>.Type {
         return SwiftBlocksKit<Self>.self
     }
     
-    public var sb: SwiftBlocksKit<Self> {
+    var sb: SwiftBlocksKit<Self> {
         get { return SwiftBlocksKit(self) }
     }
 }

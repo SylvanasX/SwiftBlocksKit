@@ -26,10 +26,11 @@ class ViewController: UIViewController {
             print(btn)
         }
         
-//        timer = Timer.sb.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
-//            print(timer)
-//        })
-//        testView.isUserInteractionEnabled = true
+        timer = Timer.sb.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
+            print(timer)
+        })
+        
+        testView.isUserInteractionEnabled = true
         testView.sb.whenTappd {
             print("tapped")
         }

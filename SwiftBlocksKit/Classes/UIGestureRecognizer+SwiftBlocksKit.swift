@@ -7,7 +7,7 @@
 
 import UIKit
 
-public typealias GestureRecognizerHandlerBlock = (UIGestureRecognizer, UIGestureRecognizerState, CGPoint) -> Void
+public typealias GestureRecognizerHandlerBlock = (UIGestureRecognizer, UIGestureRecognizer.State, CGPoint) -> Void
 private var swiftBlocksKitGestureRecognizerWrapperKey: Void?
 
 extension SwiftBlocksKit where Base: UIGestureRecognizer {

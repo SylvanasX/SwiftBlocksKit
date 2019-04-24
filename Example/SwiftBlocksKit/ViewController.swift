@@ -11,11 +11,17 @@ import SwiftBlocksKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var testView: UIView!
     @IBOutlet weak var btn: UIButton!
     
     var timer: Timer?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let sw = UISwitch()
+        
+  
+        
         btn.sb.addEventHandlerForControlEvents(.touchUpInside) { (btn) in
             print(btn)
         }
@@ -23,6 +29,11 @@ class ViewController: UIViewController {
         timer = Timer.sb.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
             print(timer)
         })
+        
+        testView.isUserInteractionEnabled = true
+        testView.sb.whenTappd {
+            print("tapped")
+        }
         
     }
     
